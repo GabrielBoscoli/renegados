@@ -1,0 +1,85 @@
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	width: 940px;
+}
+
+.invisivel {
+	background-color: black;
+	border-color: black;
+}
+
+.borda {
+	border-color: red;
+	border-style: solid;
+	border-width: 1px;
+}
+
+body {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-color: #000000;
+}
+
+h1 span, h2 span{
+	color: black;
+	background-color: #00a777;
+}
+
+h1 span{
+	padding: 0px 23px 20px 20px;
+}
+
+h1 {
+	font-size:50px;
+	margin-bottom: 100px;
+}
+
+h2 span{
+	padding: 0 0px 0 0px;
+}
+
+h2 {
+	margin-left: 98px;
+	margin-bottom: 20px;
+}
+
+ul {
+	text-align: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+li {
+	background-color: #00a777;
+	margin: 4px 4px;
+	padding: 3px;
+	border-color: red;
+	border-style: solid;
+	border-width: 1px;
+}
+
+@media (max-width: 939px){
+	
+	.center{
+		width: 96%;
+	}
+	
+	h2 {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	
+	h1 {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	
+	@media (max-width: 575px) {
+		.invisivel {
+			display: none;
+		}
+	}
+}
