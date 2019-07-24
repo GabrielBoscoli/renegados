@@ -16,7 +16,7 @@ body {
 	color: black;
 }
 
-h1 span, p {
+h1 span, p, #nomes {
 	background-color: #00a777;
 }
 
@@ -39,6 +39,11 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
+}
+
+#nomes {
+	width: 50%;
+	text-align: center;
 }
 
 @media (max-width: 939px){
