@@ -77,10 +77,19 @@ table {
 	margin-right: auto;
 }
 
+th {
+	font-weight: bold;
+	background-color: #00a751;
+	padding: 7px 5px;
+}
+
 th, td {
 	border-color: red;
 	border-style: solid;
 	border-width: 1px;
+}
+
+td {
 	padding: 5px;
 }
 
