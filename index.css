@@ -97,6 +97,10 @@ th {
 	text-align:center;
 }
 
+tr:hover{
+	background-color: #00a766
+}
+
 @media (max-width: 939px){
 	
 	.center{
@@ -119,5 +123,13 @@ th {
 		.invisivel {
 			display: none;
 		}
+		
 	}
 }
+
+@media (max-width: 400px) {
+		table {
+			display: none;
+		}
+		
+	}
